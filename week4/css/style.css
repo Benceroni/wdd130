@@ -1,8 +1,16 @@
 body {
   font-size: 16px;
-  margin 0;
-  padding 0
-  background-image: ;
+  margin: 0 auto;
+  padding: 0;
+  background-image: "images\scoutbackground.JPG";
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* i know we are supposed to have a background color but i wanted to add a photo */
+
+body {
+  background-image: url("scoutbackground.JPG");
+  /* background-color: #cccccc; */
 }
 
 h1 {
@@ -11,13 +19,20 @@ h1 {
   text-transform: capitalize;
 }
 
-header,
-main,
-footer {
-  width: 960px;
+h2 {
+  color: rgb(216, 22, 22, 1);
+  font-size: 2.5rem;
+  text-transform: capitalize;
 }
 
-header {
+h3 {
+  color: rgb(216, 22, 22, 1);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+header,
+footer {
   margin: 0 auto;
   border-top: 0.1rem solid black;
   border-bottom: 0.1rem solid black;
@@ -25,10 +40,54 @@ header {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+header {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  width: 4rem auto;
+  height: auto;
+}
+ul {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin: 1rem auto;
+  border: 2rem;
+  padding: 1rem;
+  /* background-image: ("images/scoutbackground.jpg"); */
+  background-color: rgb(0, 0, 0, 0.35);
+}
+
+p {
+  color: rgb(58, 57, 13);
+}
+
 /* class selectors */
 .logo {
   width: 5rem;
   height: auto;
 }
-.heroimage {
+
+/* .heroimage {
+} */
+
+.page {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.socialmedia {
+  display: grid;
+  grid-template-columns: repeat(1) 11rem 5fr;
+  grid-gap: 5px;
+  /* align-items: center;
+  justify-content: center; */
 }
