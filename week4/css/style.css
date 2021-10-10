@@ -2,15 +2,15 @@ body {
   font-size: 16px;
   margin: 0 auto;
   padding: 0;
-  background-image: "images\scoutbackground.JPG";
+  /* background-image: "images\scoutbackground.JPG";
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
-/* i know we are supposed to have a background color but i wanted to add a photo */
+/* i know we are supposed to have a background color but i wanted to add a photo. Couldn't get it working 😭 */
 
 body {
-  background-image: url("scoutbackground.JPG");
-  /* background-color: #cccccc; */
+  /* background-image: url("images/scoutbackground.JPG"); */
+  background-color: #cccccc65;
 }
 
 h1 {
