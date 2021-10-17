@@ -89,6 +89,7 @@ p {
 }
 
 .mainnav a {
+  color: #487e91;
   display: block;
   padding: 1rem;
   text-decoration: none;
