@@ -14,12 +14,14 @@ h1 {
   color: #93656e;
   font-size: 2.5rem;
   text-transform: capitalize;
+  /* justify-self: center; */
 }
 
 h2 {
   color: #93656e;
   font-size: 2.5rem;
   text-transform: capitalize;
+  justify-self: center;
 }
 
 h3 {
@@ -94,8 +96,7 @@ p {
 .mainnav a:hover {
   color: black;
   background-color: #d60000;
-  height: 115px;
-  width: 200px;
+
   align-items: center;
 }
 
@@ -112,12 +113,50 @@ p {
 
 .socialmedia {
   display: grid;
-  grid-template-columns: repeat(1) 11rem 5fr;
+  grid-template-columns: 11rem 5fr;
   grid-gap: 5px;
   /* align-items: center;
   justify-content: center; */
 }
 
+.items {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-gap: 20px;
+  /* grid-template-rows: 1fr 1fr; */
+}
+
+.riverimg {
+  width: 100%;
+}
+
 .shadowimage {
   box-shadow: 10px 5px 5px red;
+  width: 100%;
+  /* grid-column: 1/2;
+  grid-row: 1/2; */
+}
+
+.para2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.heroimage {
+  width: 100%;
+}
+
+.para1 {
+  grid-column: 2/3;
+}
+
+.imageone {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.endpara {
+  /* width: 100%; */
+  justify-content: right;
+  grid-column: 1/3;
 }
