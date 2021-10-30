@@ -121,9 +121,9 @@ p {
 
 .items {
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  /* grid-template-rows: 1fr 1fr; */
+  grid-template-rows: 1fr 1fr;
 }
 
 .riverimg {
