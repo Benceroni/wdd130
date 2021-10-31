@@ -157,8 +157,8 @@ p {
 
 .endpara {
   /* width: 100%; */
-  justify-content: right;
   grid-column: 1/3;
+  text-align: center;
 }
 
 .heroaction {

@@ -157,7 +157,7 @@ p {
 
 .endpara {
   /* width: 100%; */
-  justify-content: right;
+  text-align: center;
   grid-column: 1/3;
 }
 
