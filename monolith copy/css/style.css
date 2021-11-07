@@ -1,0 +1,29 @@
+.colordemo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.primary {
+  background-color: #e539ff;
+  width: 500px;
+  height: 500px;
+}
+
+.secondary {
+  background-color: #008b85;
+  width: 500px;
+  height: 500px;
+}
+
+.accent1 {
+  background-color: #26fcf2;
+  width: 500px;
+  height: 500px;
+}
+
+.accent2 {
+  background-color: #00c2ba;
+  width: 500px;
+  height: 500px;
+}
