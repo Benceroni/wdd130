@@ -5,10 +5,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   line-height: 1.5rem;
   background-image: url("../images/scoutbackground.JPG");
-  /* background-repeat: repeat 5; */
-  /* background-size: cover; */
 }
-/* i know we are supposed to have a background color but i wanted to add a photo. Couldn't get it working 😭 */
 
 h1 {
   color: white;
@@ -74,6 +71,7 @@ p {
 }
 
 /* class selectors */
+
 .mainnav {
   list-style-type: none;
   display: flex;
@@ -89,11 +87,11 @@ p {
 .mainnav a {
   display: block;
   padding: 1rem;
-  text-decoration: none;
   background-color: rgb(255, 255, 255, 1);
   border: 1px solid #000;
   position: relative;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .mainnav a:hover {
@@ -101,6 +99,10 @@ p {
   background-color: #d60000;
 
   align-items: center;
+}
+
+.inactive {
+  font-size: 1.4 rem;
 }
 
 .logo {
@@ -114,20 +116,10 @@ p {
   margin: 0 auto;
 }
 
-/* .socialmedia {
-  justify-items: center;
-}
-
-.socialmedia a:hover {
-  color: white;
-  background-color: white;
-} */
-
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  grid-template-rows: 1fr 1fr;
 }
 
 .riverimg {
@@ -142,17 +134,18 @@ p {
 }
 
 .para2 {
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-column: 2/3;
 }
 
 .para1 {
-  grid-column: 2/3;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .imageone {
   grid-column: 1/2;
   grid-row: 2/3;
+  width: 100%;
 }
 
 .endpara {
@@ -190,4 +183,37 @@ p {
 .cta a:hover {
   background-color: #000;
   text-decoration: none;
+}
+
+.state {
+  display: grid;
+  justify-content: center;
+}
+
+.locationimg {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  width: 100%;
+}
+
+.availability {
+  text-decoration: none;
+  grid-column: 1/3;
+  margin: 2rem;
+  /* background-color: #487e91; */
+  justify-self: center;
+  color: #93656e;
+}
+
+.availability a:hover {
+  color: fff;
+  background-color: aquamarine;
+  text-decoration: underline;
+}
+
+.riverloc {
+  display: flex;
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
 }
