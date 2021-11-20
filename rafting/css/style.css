@@ -71,6 +71,7 @@ main {
 
 p {
   color: black;
+  font-size: 1.25rem;
 }
 
 /* class selectors */
@@ -159,33 +160,35 @@ p {
 
 .heroaction {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  position: relative;
 }
 
 .heroimage {
   width: 100%;
-  grid-column: 1/4;
-  grid-row: 1/4;
-  z-index: 1;
-  text-align: center;
+  display: grid;
+  font-size: 10rem;
+  /* margin-bottom: 1rem; */
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.cta a:link {
+  color: rgb(255, 255, 255, 0.75);
 }
 
 .cta {
-  background-color: rgb(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  text-align: center;
-  text-decoration: none;
+  justify-self: center;
+  align-self: center;
+  color: 
+  z-indexrgb(255, 255, 255, 0.75);: 2;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .cta a:hover {
-  background-color: #000;
-  text-decoration: none;
+  background-color: 
+  text-decoration: underline;
 }
 
 .locheader {
@@ -286,9 +289,10 @@ p {
 .heading {
   grid-column: 1/4;
   justify-self: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 2rem;
   align-self: center;
+  color: #487e91;
 }
 
 .topicimg {
@@ -300,26 +304,34 @@ p {
 .topicpara {
   grid-column: 2/4;
   grid-row: 2/3;
+  font-size: 1.25rem;
 }
 
 .topicimgalt {
-  grid-row: 2/5;
+  grid-row: 2/3;
   grid-column: 3/4;
 }
 
 .topicparaalt {
   grid-column: 1/3;
   grid-row: 2/3;
+  font-size: 1.25rem;
 }
 
 .Named {
   grid-column: 2/3;
   grid-row: 2/3;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 2rem;
+  color: #d60000;
 }
 
 .topicparafounder {
   grid-column: 2/3;
   grid-row: 3/4;
+  font-size: 1.25rem;
+}
+
+.topicimgfounder {
+  grid-row: 2/5;
 }
