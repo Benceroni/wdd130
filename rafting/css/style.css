@@ -1,3 +1,7 @@
+a:link {
+  text-decoration: none;
+}
+
 body {
   font-size: 16px;
   margin: 0 auto;
@@ -272,4 +276,50 @@ p {
   font-size: 2rem;
   justify-self: center;
   align-self: center;
+}
+
+.topic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.heading {
+  grid-column: 1/4;
+  justify-self: center;
+  font-size: 2rem;
+  padding: 2rem;
+  align-self: center;
+}
+
+.topicimg {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  height: auto;
+}
+
+.topicpara {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.topicimgalt {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+.topicparaalt {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.Named {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.topicparafounder {
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
