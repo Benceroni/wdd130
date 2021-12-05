@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  text-align-last: center;
+}
+
+h2 {
+  font-size: 1rem;
+  font-variant: small-caps;
+}
+
+p {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
+/* C L A S S   S E L E C T O R S */
+
+.card {
+  width: 400px;
+  height: auto;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.549);
+}
+
+.card img {
+  width: 400px;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.contents {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button a,
+:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  background: rgba(0, 0, 0, 0.1);
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.button:hover a {
+  color: white;
+}
+
+.card,
+.button {
+  border-radius: 1rem;
+}
+
+.heartbox {
+  display: flex;
+  justify-content: right;
+}
+
+.heart {
+  position: absolute;
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 3rem;
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.heart img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.heart:hover {
+  transform: scale(1.2);
+  transition: 100ms ease-in-out;
+}
