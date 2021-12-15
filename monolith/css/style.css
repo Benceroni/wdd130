@@ -46,6 +46,10 @@ a:visited {
   color: black;
 }
 
+.title{
+  text-align: center;
+}
+
 .headbox {
   width: 960px;
   margin: 0 auto;
@@ -186,6 +190,16 @@ a:visited {
 
 .showcaseimg2 {
   display: flex;
+}
+
+.showcase4{
+display: flex;
+justify-content: space-between;
+}
+
+.persondesc{
+  width: 33%;
+  padding: 1rem;
 }
 
 .imgdesc {
