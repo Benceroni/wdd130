@@ -14,7 +14,6 @@ header {
 h2,
 h3 {
   text-align: center;
-  
 }
 
 main,
@@ -46,7 +45,7 @@ a:visited {
   color: black;
 }
 
-.title{
+.title {
   text-align: center;
 }
 
@@ -192,12 +191,12 @@ a:visited {
   display: flex;
 }
 
-.showcase4{
-display: flex;
-justify-content: space-between;
+.showcase4 {
+  display: flex;
+  justify-content: space-between;
 }
 
-.persondesc{
+.persondesc {
   width: 33%;
   padding: 1rem;
 }
@@ -225,8 +224,8 @@ justify-content: space-between;
   border-radius: 0.125rem;
 }
 
-.productimg{
-  margin: .5rem;
+.productimg {
+  margin: 0.5rem;
 }
 
 .text {
@@ -239,9 +238,9 @@ justify-content: space-between;
 }
 
 .button {
-  background-color: gray;`
-  padding-left: 1rem;
-  height: 50px;
+  background-color: gray;
+  text-align: center;
+  padding: 2rem;
 }
 
 .socialmedia {
