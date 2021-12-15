@@ -1,5 +1,5 @@
 body {
-  /* background: linear-gradient(white, rgba(0, 0, 0, 0.433)); */
+  /* background: linear-gradient(white, rgba(0, 0, 0, 0.25)); */
   font-size: 16px;
   margin: 0 auto;
   padding: 0;
@@ -9,31 +9,213 @@ body {
 
 header {
   width: 100%;
-  background-color: grey;
 }
 
-main {
+h2,
+h3 {
+  text-align: center;
+}
+
+main,
+footer {
   width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
 }
 /* C L A S S   S E L E C T O R S */
+:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
 
 .headbox {
   width: 960px;
   margin: 0 auto;
-  padding: 0;
+  padding: 1rem;
   align-items: center;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(225, 225, 225);
+  border-radius: 0.5rem;
 }
 
 .nav {
   display: flex;
-  width: 30%;
-  justify-content: space-between;
   list-style: none;
+  width: 50%;
 }
 
-.logo1 {
+.home,
+.products,
+.aboutus {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0.1rem;
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  box-shadow: 0 0.1rem 0.2rem rgb(21, 71, 136);
+  text-align: center;
+  background-color: white;
+}
+
+.home:hover,
+.products:hover,
+.aboutus:hover {
+  /* background-color: black; */
+  color: white;
+  transition: 100ms ease-in-out;
+  box-shadow: none;
+  background-color: black;
+  box-shadow: 0 -0.1rem 0.2rem inset white;
+}
+
+.active {
+  font-weight: bold;
+  box-shadow: 0 0.2rem 0.2rem rgb(21, 71, 136);
+}
+
+/* /* .homenav a:link {
+  text-decoration: none;
+} */
+
+.homenav a:hover {
+  /* Remove gray filter */
+  /* expand out */
+  /* line around font?/backdrop */
+  /* Make filter accent color */
+  /* add black border */
+}
+
+/* .navcontianer {
+  background-color: gray;
+}
+
+.homenav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homenav2 {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.navtext {
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.productdisp {
+  padding: 1rem;
+  text-align: center;
+  width: 50%;
+  background-image: url("../monolith/images/watermarkedauto.JPG");
+  height: 100%;
+}
+
+.aboutusdisp {
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  width: 50%;
+}
+.milspec {
+  padding: 1rem;
+  width: 33%;
+  text-align: center;
+}
+
+.blackout {
+  padding: 1rem;
+  width: 33%;
+  text-align: center;
+}
+
+.luger {
+  padding: 1rem;
+  width: 33%;dx
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.banner {
+  display: grid;
+  padding-top: 2rem;
+}
+
+.bannerh2 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bannerimg {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.showcase1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.showcaseimg2 {
+  display: flex;
+}
+
+.imgdesc {
+  display: inline;
+}
+
+.productlist {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.productitem {
+  height: 3rem;
+  background-color: gray;
+  margin: 0.25rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0.2rem 0.2rem rgb(0, 0, 0);
+  border-radius: 0.125rem;
+}
+
+.text {
+  margin: 0.75rem;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
 }
 
 .colordemo {
