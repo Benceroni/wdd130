@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  line-height: 1.5rem;
+  /* line-height: 1.5rem; */
 }
 
 header {
@@ -131,7 +131,7 @@ a:visited {
   text-shadow: 0rem 0rem 0.25rem white;
 }
 
-.herotext:hover .heroimage .herobox {
+.herotext:hover .herobox {
   filter: blur(3px);
 }
 
